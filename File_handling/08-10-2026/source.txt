@@ -1,0 +1,4 @@
+When a program runs, its data is stored temporarily in RAM (volatile memory) and is lost
+once the program exits. File handling allows programs to interact with secondary storage
+(like a hard disk) to store data permanently, manage configuration files, and process 
+large amounts of data efficiently

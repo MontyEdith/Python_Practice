@@ -1,0 +1,11 @@
+When a program runs, its data is stored temporarily in RAM (volatile memory) and is lost
+once the program exits. File handling allows programs to interact with secondary storage
+(like a hard disk) to store data permanently, manage configuration files, and process 
+large amounts of data efficiently
+File handling in Python enables a program to create, read, update, 
+and delete files stored permanently on a secondary storage device. 
+This process bridges the gap between volatile system memory (RAM) and non-volatile storage, ensuring that data persists
+even after the program terminates. Python executes these tasks using the built-in open(filename, mode) function, which
+accepts the file's path and a designated processing mode. The most common modes include 'r' for reading existing data, 'w' for writing new
+text (which entirely overwrites existing contents), and 'a' for appending new data to the end of the file without 
+deleting the original content
